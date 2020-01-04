@@ -1,0 +1,547 @@
+body {
+	background: #d1039d;
+	background-image: url("gambar/gambar13.jpg");
+    background-attachment: fixed;
+}
+
+#header {
+	margin-left:-8px;
+	margin-top: -8px;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background: rgb(7, 7, 7);
+	background-image: url("../images/Header.jpg");
+	z-index: 3;
+}
+
+#header .logo {
+	margin-top: -6px;
+	margin-left:30px; 
+	background-image: url("gambar/gambar7.JPG");
+	height: 70px;
+	width: 70px;
+	float: left;
+}
+
+#header .links li {
+	display: inline;
+}
+#header .links li a{
+	text-align: center;
+	float: left;
+	font-size: 20px;
+	padding: 29px;
+	width: 6%;
+	color: rgb(136, 7, 129);
+	font-weight: bolder;
+	text-decoration: none;
+	font-family: sans-serif;
+    transition:all 0.4s;
+}
+#header .links li a:hover {
+    color:#a3005f;
+}
+
+#konten {
+	position: relative;
+	padding-top: 120px;
+	width: 100%;
+	background: rgb(104, 1, 117);
+	background-image: url("../images/Background.jpg");
+	z-index: 2;
+}
+#konten .Foto-Profil{
+	border: solid 1px #8d0057;
+	height: 330px;
+	width: 300px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 20px;
+	background-image: url(image/profil.jpeg);
+}
+
+#konten .Biodata {
+	width: 92%;
+	background: ;
+	padding-bottom: 25px;
+}
+#konten .Biodata b{
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	color: white;
+}
+
+/*-------------------------------------*/
+#konten .bio-1{
+	height: ;
+	padding: 20px;
+	transition: 0.9s;
+	border: solid 1px #000000;
+	background: rgb(128, 2, 128);
+}
+#konten .bio-1:hover{
+	font-size: 19px;
+	cursor: pointer;
+	background: rgb(117, 2, 117);
+}
+#konten .bio-1 a{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: rgb(136, 6, 148);
+	transition: 0.9s;
+}
+#konten .bio-1 a:hover{
+	color: white;
+}
+#konten .bio-1 b{
+}
+/*-------------------------------------*/
+#konten .bio-2{
+	height: 80px;
+	background: ;
+	padding: 20px;
+	transition: 0.9s;
+}
+#konten .bio-2:hover{
+	cursor: pointer;
+	background: rgb(131, 2, 131);
+}
+#konten .bio-2 a{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #999;
+	transition: 0.9s;
+}
+#konten .bio-2 a:hover{
+	color: white;
+}
+#konten .bio-2 b{
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	color: white;
+}
+/*-------------------------------------*/
+#konten .bio-3{
+	height: ;
+	background: ;
+	padding: 20px;
+	transition: 0.9s;
+}
+#konten .bio-3:hover{
+	cursor: pointer;
+	background: rgb(113, 4, 134);
+}
+#konten .bio-3 a{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #999;
+	transition: 0.9s;
+	margin-left: 80px;
+}
+#konten .bio-3 a:hover{
+	color: white;
+}
+#konten .bio-3 b{
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	color: white;
+}
+/*-------------------------------------*/
+#konten .bio-4{
+	height: ;
+	background: ;
+	padding: 20px;
+	transition: 0.9s;
+}
+#konten .bio-4:hover{
+	cursor: pointer;
+	background: rgb(133, 3, 145);
+}
+#konten .bio-4 a{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #999;
+	transition: 0.9s;
+	margin-left: 80px;
+}
+#konten .bio-4 a:hover{
+	color: white;
+}
+#konten .bio-4 b{
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	color: white;
+}
+/*-------------------------------------*/
+
+#konten .kontak{
+	padding-bottom: 50px;
+	position: relative;
+}
+#konten .form-kontak {
+	position: relative;
+	background: ;
+	padding: 20px;
+	width: 45%;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: -20px;
+}
+
+#konten .form-kontak b{
+	font-size: 25px;
+	color: #fff;
+	background: #b90066;
+	padding: 15px;
+	padding-right: 50px;
+	padding-left: 50px;	
+	cursor: default;
+	border: solid 1px #b60380;
+}
+
+#konten .text {
+	padding: 10px;
+	border: solid 1px rgb(153, 2, 158);
+	width: 95%;
+	height: 35px;
+	background: rgb(114, 2, 124);
+	color: white;
+	font-family: sans-serif;
+	transition: 0.4s;
+}
+#konten .text:hover{
+	border: solid 1px #ac0078;
+	background: rgb(120, 3, 136);
+}
+
+#konten .alamat {
+	padding: 10px;
+	border: solid 1px rgb(114, 3, 114);
+	background: rgb(92, 1, 104);
+	height: 100px;
+	width: 95%;
+	color: white;
+	font-family: sans-serif;
+	transition: 0.4s;
+}
+#konten .alamat:hover{
+	border: solid 1px #b10477;
+	background: rgb(91, 1, 109);
+}
+
+#konten .time{
+	font-weight: bold;
+	padding: 10px;
+	border: solid 1px rgb(112, 3, 122);
+	background: rgb(161, 4, 167);
+	color: white;
+	font-family: sans-serif;
+	transition: 0.4s;
+}
+#konten .time:hover{
+	border: solid 1px #a5007c;
+	background: rgb(92, 1, 92);
+}
+
+#konten .select{
+	font-weight: bold;
+	padding: 10px;
+	border: solid 1px rgb(101, 2, 110);
+	background: rgb(95, 1, 104);
+	color: white;
+	font-family: sans-serif;
+	transition: 0.4s;
+}
+#konten .select:hover{
+	border: solid 1px #da0086;
+	background: rgb(103, 1, 112);
+}
+
+#konten .date{
+	font-weight: bold;
+	padding: 10px;
+	border: solid 1px rgb(102, 5, 141);
+	background: rgb(93, 1, 129);
+	color: white;
+	font-family: sans-serif;
+	transition: 0.4s;
+}
+#konten .date:hover{
+	border: solid 1px #b60171;
+	background: rgb(108, 1, 117);
+}
+
+#konten .file{
+	font-weight: bold;
+	padding: 10px;
+	border: solid 1px rgb(91, 4, 126);
+	background: rgb(109, 3, 141);
+	width: 300px;
+	color: white;
+	font-family: sans-serif;
+	transition: 0.4s;
+}
+#konten .file:hover{
+	border: solid 1px #b40069;
+	background: rgb(84, 1, 117);
+}
+
+#konten .button{
+	background: rgb(84, 1, 105);
+	padding: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: solid 1px rgb(87, 1, 104);
+	color: rgb(93, 3, 129);
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	font-family: sans-serif;
+	transition: 0.5s;
+}
+#konten .button:hover{
+	border: solid 1px #b90182;
+	cursor: pointer;
+	background: rgb(87, 3, 121);
+	color: #fff;
+}
+
+/*-------------------------------------*/
+#konten .box{
+	padding-bottom: 50px;
+}
+#konten .galeri{
+	width: 100%;
+	font-weight: bolder;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #fff;
+}
+#konten .galeri b{
+	margin-left: 25px;
+	border: solid 1px #b6027a;
+	background: #cf008a;
+	padding: 20px;
+	padding-right: 70px;
+	padding-left: 70px;
+	cursor: default;
+}
+
+/*-------------------------------------*/
+#konten .img-1{
+	border: solid 1px rgb(105, 2, 136);
+	background: rgb(129, 1, 146);
+	background-image: url(image/inun1.jpeg);
+	width: 240px;
+	height: 350px;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+#konten .img-1:hover{
+	opacity: 1;
+	border: solid 1px #c2006b;
+	background-image: url(image/inun1.jpeg);
+}
+/*-------------------------------------*/
+#konten .img-2{
+	border: solid 1px rgb(86, 2, 119);
+	background: rgb(88, 1, 105);
+	background-image: url(image/inun2.jpeg);
+	width: 240px;
+	height: 350px;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+#konten .img-2:hover{
+	opacity: 1;
+	border: solid 1px #da0191;
+	background-image: url(image/inun2.jpeg);
+}
+/*-------------------------------------*/
+#konten .img-3{
+	border: solid 1px rgb(104, 2, 134);
+	background: rgb(111, 2, 133);
+	background-image: url(image/1.jpg);
+	width: 240px;
+	height: 350px;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+#konten .img-3:hover{
+	opacity: 1;
+	border: solid 1px #b9027c;
+	background-image: url(image/1.jpg);
+}
+/*-------------------------------------*/
+#konten .img-4{
+	border: solid 1px rgb(94, 2, 102);
+	background: rgb(96, 2, 109);
+	background-image: url(image/inun4.jpeg);
+	width: 240px;
+	height: 350px;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+#konten .img-4:hover{
+	opacity: 1;
+	border: solid 1px #a80263;
+	background-image: url(image/inun4.jpeg);
+}
+/*-------------------------------------*/
+#konten .img-5{
+	border: solid 1px rgb(92, 1, 110);
+	background: rgb(89, 1, 110);
+	background-image: url(image/inun5.jpeg);
+	width: 240px;
+	height: 350px;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+#konten .img-5:hover{
+	opacity: 1;
+	border: solid 1px #d1057c;
+	background-image: url(image/inun5.jpeg);
+}
+/*-------------------------------------*/
+#konten .img-5{
+	border: solid 1px rgb(86, 2, 107);
+	background: rgb(80, 2, 95);
+	background-image: url(image/inun6.jpeg);
+	width: 240px;
+	height: 350px;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+#konten .img-5:hover{
+	opacity: 1;
+	border: solid 1px #c00170;
+	background-image: url(image/inun6.jpeg);
+}
+/*-------------------------------------*/
+#konten .img-6{
+	border: solid 1px rgb(88, 4, 109);
+	background: rgb(68, 2, 105);
+	background-image: url(image/inun7.jpeg);
+	width: 240px;
+	height: 350px;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+#konten .img-6:hover{
+	opacity: 1;
+	border: solid 1px #db0092;
+	background-image: url(image/inun7.jpeg);
+}
+/*-------------------------------------*/
+#konten .img-7{
+	border: solid 1px rgb(76, 2, 105);
+	background: rgb(74, 1, 116);
+	background-image: url(image/inun8.jpeg);
+	width: 240px;
+	height: 350px;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+#konten .img-7:hover{
+	opacity: 1;
+	border: solid 1px #bb008c;
+	background-image: url(image/inun8.jpeg);
+}
+/*-------------------------------------*/
+#konten .img-8{
+	border: solid 1px rgb(86, 2, 119);
+	background: rgb(59, 1, 99);
+	background-image: url(image/inun9.jpeg);
+	width: 240px;
+	height: 350px;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+#konten .img-8:hover{
+	opacity: 1;
+	border: solid 1px #d40596;
+	background-image: url(image/inun9.jpeg);
+}
+/*-------------------------------------*/
+#konten .img-9{
+	border: solid 1px rgb(77, 3, 119);
+	background: rgb(89, 2, 139);
+	background-image: url(image/2.jpg);
+	width: 240px;
+	height: 350px;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+#konten .img-9:hover{
+	opacity: 1;
+	border: solid 1px #e000bb;
+	background-image: url(image/2.jpg);
+}
+/*-------------------------------------*/
+#konten .img-10{
+	border: solid 1px rgb(71, 2, 110);
+	background: rgb(95, 3, 138);
+	background-image: url(image/inun11.jpeg);
+	width: 240px;
+	height: 350px;
+	transition: 0.5s;
+	opacity: 0.5;
+}
+#konten .img-10:hover{
+	opacity: 1;
+	border: solid 1px #ca06a0e3;
+	background-image: url(image/inun11.jpeg);
+}
+/*-------------------------------------*/
+#konten .data-box{
+	padding-bottom:50px;
+}
+#konten .data{
+	background: ;
+	color:white;
+	font-family: sans-serif;
+}
+#konten .data-title{
+	height:100px;
+}
+#konten .data-title b{
+	font-size:22px;
+	background:rgb(0, 0, 0);
+	border:solid 1px #b6037a;
+	padding:20px;
+}
+#konten .td{
+	padding:10px;
+	font-weight:bold;
+	border:solid 1px #999;
+}
+#konten .td-data{
+	padding:10px;
+	border:solid 1px #999;
+}
+#konten .read{
+	background:;
+	transition:0.5s;
+}
+#konten .read:hover{
+	cursor:pointer;
+	background:rgb(3, 3, 3);
+}
+#footer {
+	width: 100%;
+	padding-top: 20px;
+	background: rgb(5, 5, 5);
+	z-index: 1;
+}
+#footer .copyright {
+	font-size: 13px;
+	font-style: italic;
+	padding: 10px;
+	color: #999;
+}
